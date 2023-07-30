@@ -1,0 +1,56 @@
+ .main {
+     display: block;
+     margin: 0 auto;
+     padding: 20px 30px;
+     border: 1px solid;
+     width: fit-content;
+ }
+
+ .row {
+     display: flex;
+ }
+
+ #city-input {
+     margin: 10px;
+     padding: 10px;
+     font-size: 16px;
+     border: 1px solid gray;
+     border-radius: 5px;
+ }
+
+ #search-button {
+     background-color: blue;
+     font-size: 16px;
+     padding: 10px;
+     border: none;
+     color: white;
+     margin: 10px;
+     border-radius: 5px;
+ }
+
+ #current-button {
+     background-color: green;
+     font-size: 16px;
+     padding: 10px;
+     border: none;
+     color: white;
+     margin: 10px;
+     border-radius: 5px;
+ }
+
+ ul {
+     list-style-type: none;
+     font-size: 20px;
+
+ }
+
+ .col-6 {
+     position: relative;
+     width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+ }
+
+ #temperature {
+     font-size: 75px;
+ }
